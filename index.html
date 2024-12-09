@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-compatible" content="IE=edge">
+        <meta name="view port" content="width=device-width,initial-scale=1.0">
+        <title>Table Creation</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+                integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N"
+                crossorigin="anonymous">  
+        <style>
+             thead th  {
+                border: 1px solid black;
+                border-collapse:collapse;
+                text-align: center;
+            }
+             tbody td  {
+                border: 1px solid black;
+                border-collapse:collapse;
+                text-align: center;
+            }
+        </style>        
+</head>
+
+<body>
+   <table>
+    <thead>
+        <tr>
+            <th>State of Health</th>
+            <th colspan="2">Fasting value</th>
+            <th>After Remaining</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td></td>
+            <td><b>Minimum</b></td>
+            <td><b>Normal</b></td>
+            <td><b>2hours of Fasting</b></td>
+        </tr>
+        <tr>
+            <td>Healthy</td>
+            <td>70</td>
+            <td>100</td>
+            <td>Less than 140</td>
+        </tr>
+        <tr>
+            <td>Pre-Diabetes</td>
+            <td>101</td>
+            <td>126</td>
+            <td>140 to 200</td>
+        </tr>
+        <tr>
+            <td>Diabetes</td>
+            <td>more than 126</td>
+            <td>Not Applicable</td>
+            <td>more than 200</td>
+        </tr>
+    </tbody>
+   </table>
+</body>
+
+</html>
